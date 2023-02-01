@@ -1,432 +1,1136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="zxx">
 
 <head>
-    <title>Zay Shop eCommerce HTML CSS Template</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <title>Lukas - Car Parts Store eCommerce HTML Template</title>
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <!--== Favicon ==-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
-    <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-<!--
-    
-TemplateMo 559 Zay Shop
+    <!--== Google Fonts ==-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700%7CPoppins:400,400i,500,600&display=swap" rel="stylesheet">
 
-https://templatemo.com/tm-559-zay-shop
+    <!-- build:css assets/css/app.min.css -->
+    <!--== Leaflet Min CSS ==-->
+    <link href="assets/css/leaflet.min.css" rel="stylesheet" />
+    <!--== Nice Select Min CSS ==-->
+    <link href="assets/css/nice-select.min.css" rel="stylesheet" />
+    <!--== Slick Slider Min CSS ==-->
+    <link href="assets/css/slick.min.css" rel="stylesheet" />
+    <!--== Magnific Popup Min CSS ==-->
+    <link href="assets/css/magnific-popup.min.css" rel="stylesheet" />
+    <!--== Slicknav Min CSS ==-->
+    <link href="assets/css/slicknav.min.css" rel="stylesheet" />
+    <!--== Animate Min CSS ==-->
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+    <!--== Ionicons Min CSS ==-->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet" />
+    <!--== Font-Awesome Min CSS ==-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--== Bootstrap Min CSS ==-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
--->
+    <!--== Main Style CSS ==-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!--== Helper Min CSS ==-->
+    <link href="assets/css/helper.min.css" rel="stylesheet" />
+    <!-- endbuild -->
+
+    <!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
-    <!-- Start Top Nav -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+
+    <!--== Start Header Area ==-->
+    <header class="header-area">
+        <div class="container container-wide">
+            <div class="row align-items-center">
+                <div class="col-sm-4 col-lg-2">
+                    <div class="site-logo text-center text-sm-left">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Logo" /></a>
+                    </div>
                 </div>
-                <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+
+                <div class="col-lg-7 d-none d-lg-block">
+                    <div class="site-navigation">
+                        <ul class="main-menu nav">
+                            <li class="has-submenu"><a href="index.html">Home</a>
+                                <ul class="sub-menu">
+                                    <li><a href="index.html">Home 1</a></li>
+                                    <li><a href="index-2.html">Home 2</a></li>
+                                    <li><a href="index-boxed.html">Home Box Layout</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="has-submenu"><a href="shop.html">Shop</a>
+                                <ul class="sub-menu">
+                                    <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
+                                    <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                    <li><a href="single-product.html">Single Product</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu"><a href="blog.html">blog</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                    <li><a href="blog.html">Blog Right Sidebar</a></li>
+                                    <li><a href="blog-details.html">Single Blog</a></li>
+                                    <li><a href="blog-details-sidebar.html">Single Blog Sidebar</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li class="has-submenu"><a href="index.html">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 col-lg-3">
+                    <div class="site-action d-flex justify-content-center justify-content-sm-end align-items-center">
+                        <ul class="login-reg-nav nav">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                        </ul>
+
+                        <div class="mini-cart-wrap">
+                            <a href="cart.html" class="btn-mini-cart">
+                                <i class="ion-bag"></i>
+                                <span class="cart-total">3</span>
+                            </a>
+
+                            <div class="mini-cart-content">
+                                <div class="mini-cart-product">
+                                    <div class="mini-product">
+                                        <div class="mini-product__thumb">
+                                            <a href="single-product.html"><img src="assets/img/product/product-1.png" alt="product" /></a>
+                                        </div>
+                                        <div class="mini-product__info">
+                                            <h2 class="title"><a href="single-product.html">Auto Clutch & Brake</a></h2>
+
+                                            <div class="mini-calculation">
+                                                <p class="price">5 x <span>$20.33</span></p>
+                                                <button class="remove-pro"><i class="ion-trash-b"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mini-product">
+                                        <div class="mini-product__thumb">
+                                            <a href="single-product.html"><img src="assets/img/product/product-2.png" alt="product" /></a>
+                                        </div>
+                                        <div class="mini-product__info">
+                                            <h2 class="title"><a href="single-product.html">Leather Steering Wheel</a></h2>
+
+                                            <div class="mini-calculation">
+                                                <p class="price">5 x <span>$20.33</span></p>
+                                                <button class="remove-pro"><i class="ion-trash-b"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mini-product">
+                                        <div class="mini-product__thumb">
+                                            <a href="single-product.html"><img src="assets/img/product/product-3.png" alt="product" /></a>
+                                        </div>
+                                        <div class="mini-product__info">
+                                            <h2 class="title"><a href="single-product.html">Leather Steering Wheel</a></h2>
+
+                                            <div class="mini-calculation">
+                                                <p class="price">5 x <span>$20.33</span></p>
+                                                <button class="remove-pro"><i class="ion-trash-b"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="responsive-menu d-lg-none">
+                            <button class="btn-menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-    <!-- Close Top Nav -->
+    </header>
+    <!--== End Header Area ==-->
 
-
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                Zay
-            </a>
-
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
-                            <div class="input-group-text">
-                                <i class="fa fa-fw fa-search"></i>
+    <!--== Start Slider Area Wrapper ==-->
+    <div class="slider-area-wrapper">
+        <div class="slider-content-active">
+            <div class="slider-slide-item bg-img" data-bg="assets/img/slider/slider-1.jpg">
+                <div class="container container-wide h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-lg-6">
+                            <div class="slide-content">
+                                <div class="slide-content-inner">
+                                    <h3>NEW TECHNOLOGY & BUILD</h3>
+                                    <h2>WHEELS &amp; TIRES COLLECTIONS</h2>
+                                    <a class="btn btn-white" href="shop.html">Shop Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
                 </div>
             </div>
-
-        </div>
-    </nav>
-    <!-- Close Header -->
-
-    <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
+            <div class="slider-slide-item bg-img" data-bg="assets/img/slider/slider-2.jpg">
+                <div class="container container-wide h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-12">
+                            <div class="slide-content">
+                                <div class="slide-content-inner">
+                                    <h3>NEW TECHNOLOGY & BUILD</h3>
+                                    <h2>WHEELS &amp; TIRES <br> COLLECTIONS</h2>
+                                        <a class="btn btn-white" href="shop.html">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
+    <!--== End Slider Area Wrapper ==-->
 
-
-
-    <!-- Start Banner Hero -->
-    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_01.jpg" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>Zay</b> eCommerce</h1>
-                                <h3 class="h2">Tiny and Perfect eCommerce Template</h3>
-                                <p>
-                                    Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
-                                    This template is 100% free provided by <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">TemplateMo</a> website. 
-                                    Image credits go to <a rel="sponsored" class="text-success" href="https://stories.freepik.com/" target="_blank">Freepik Stories</a>,
-                                    <a rel="sponsored" class="text-success" href="https://unsplash.com/" target="_blank">Unsplash</a> and
-                                    <a rel="sponsored" class="text-success" href="https://icons8.com/" target="_blank">Icons 8</a>.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1">Proident occaecat</h1>
-                                <h3 class="h2">Aliquip ex ea commodo consequat</h3>
-                                <p>
-                                    You are permitted to use this Zay CSS template for your commercial websites. 
-                                    You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_03.jpg" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1">Repr in voluptate</h1>
-                                <h3 class="h2">Ullamco laboris nisi ut </h3>
-                                <p>
-                                    We bring you 100% free CSS templates for your websites. 
-                                    If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
-            <i class="fas fa-chevron-left"></i>
-        </a>
-        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
-            <i class="fas fa-chevron-right"></i>
-        </a>
-    </div>
-    <!-- End Banner Hero -->
-
-
-    <!-- Start Categories of The Month -->
-    <section class="container py-5">
-        <div class="row text-center pt-3">
-            <div class="col-lg-6 m-auto">
-                <h1 class="h1">Categories of The Month</h1>
-                <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">Watches</h5>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
-            </div>
-        </div>
-    </section>
-    <!-- End Categories of The Month -->
-
-
-    <!-- Start Featured Product -->
-    <section class="bg-light">
-        <div class="container py-5">
-            <div class="row text-center py-3">
-                <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Featured Product</h1>
-                    <p>
-                        Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident.
-                    </p>
-                </div>
-            </div>
+    <!--== Start Banner Area Wrapper ==-->
+    <div class="banner-area-wrapper banner-mt">
+        <div class="container container-wide">
             <div class="row">
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$240.00</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Gym Weight</a>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.
-                            </p>
-                            <p class="text-muted">Reviews (24)</p>
+                <div class="col-md-6 col-lg-4">
+                    <div class="banner-item">
+                        <div class="banner-item__img">
+                            <a href="#"><img src="assets/img/banner/banner-1.jpg" alt="Banner" /></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_02.jpg" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$480.00</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Cloud Nike Shoes</a>
-                            <p class="card-text">
-                                Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.
-                            </p>
-                            <p class="text-muted">Reviews (48)</p>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="banner-item">
+                        <div class="banner-item__img">
+                            <a href="#"><img src="assets/img/banner/banner-2.jpg" alt="Banner" /></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_03.jpg" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$360.00</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Summer Addides Shoes</a>
-                            <p class="card-text">
-                                Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.
-                            </p>
-                            <p class="text-muted">Reviews (74)</p>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="banner-item">
+                        <div class="banner-item__img">
+                            <a href="#"><img src="assets/img/banner/banner-3.jpg" alt="Banner" /></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End Featured Product -->
+    </div>
+    <!--== End Banner Area Wrapper ==-->
 
-
-    <!-- Start Footer -->
-    <footer class="bg-dark" id="tempaltemo_footer">
+    <!--== Start Call to Action Area ==-->
+    <div class="call-to-action-area sm-top">
         <div class="container">
             <div class="row">
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            123 Consectetur at ligula 10660
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                        </li>
-                    </ul>
+                <div class="col-md-4 col-lg-4">
+                    <div class="call-to-action-item mt-0">
+                        <div class="call-to-action-item__icon">
+                            <img src="assets/img/icons/icon-1.png" alt="fast delivery">
+                        </div>
+                        <div class="call-to-action-item__info">
+                            <h3>Free Home Delivery</h3>
+                            <p>Provide free home delivery
+                                for all product over $100</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
-                        <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
-                        <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
-                    </ul>
+                <div class="col-md-4 col-lg-4">
+                    <div class="call-to-action-item">
+                        <div class="call-to-action-item__icon">
+                            <img src="assets/img/icons/icon-2.png" alt="quality">
+                        </div>
+                        <div class="call-to-action-item__info">
+                            <h3>Quality Products</h3>
+                            <p>We ensure our product
+                                quality all times</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Home</a></li>
-                        <li><a class="text-decoration-none" href="#">About Us</a></li>
-                        <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
-                        <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none" href="#">Contact</a></li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="row text-light mb-4">
-                <div class="col-12 mb-3">
-                    <div class="w-100 my-3 border-top border-light"></div>
-                </div>
-                <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <label class="sr-only" for="subscribeEmail">Email address</label>
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Subscribe</div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="call-to-action-item">
+                        <div class="call-to-action-item__icon">
+                            <img src="assets/img/icons/icon-3.png" alt="return">
+                        </div>
+                        <div class="call-to-action-item__info">
+                            <h3>Online Support</h3>
+                            <p>To satisfy our customer we try
+                                to give support online</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <!--== End Call to Action Area ==-->
 
-        <div class="w-100 bg-black py-3">
+    <!--== Start Best Seller Products Area ==-->
+    <div class="best-seller-products-area sm-top">
+        <div class="container container-wide">
+            <div class="row">
+                <div class="col-lg-5 m-auto text-center">
+                    <div class="section-title">
+                        <h2 class="h3">Best Seller</h2>
+                        <p>All best seller product are now available for you and your can buy
+                            this product from here any time any where so sop now</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-wrapper">
+                        <div class="product-carousel">
+                            <!-- Start Product Item -->
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-1.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-2.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Auto Clutch & Brake</a></h4>
+                                    <span class="price"><strong>Price:</strong> $165.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+
+                                <div class="product-item__sale">
+                                    <span class="sale-txt">25%</span>
+                                </div>
+                            </div>
+                            <!-- End Product Item -->
+
+                            <!-- Start Product Item -->
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-3.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-4.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Leather Steering Wheel</a></h4>
+                                    <span class="price"><strong>Price:</strong> $615.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+                            </div>
+                            <!-- End Product Item -->
+
+                            <!-- Start Product Item -->
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-4.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-5.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Hanging 4K Camera</a></h4>
+                                    <span class="price"><strong>Price:</strong> $65.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+
+                                <div class="product-item__sale">
+                                    <span class="sale-txt">35%</span>
+                                </div>
+                            </div>
+                            <!-- End Product Item -->
+
+                            <!-- Start Product Item -->
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-2.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-1.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">17 inch Rims 8 Lug</a></h4>
+                                    <span class="price"><strong>Price:</strong> $165.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+                            </div>
+                            <!-- End Product Item -->
+
+                            <!-- Start Product Item -->
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-5.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-4.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Locking Hub Diagram</a></h4>
+                                    <span class="price"><strong>Price:</strong> $165.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+
+                                <div class="product-item__sale">
+                                    <span class="sale-txt">21%</span>
+                                </div>
+                            </div>
+                            <!-- End Product Item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Best Seller Products Area ==-->
+
+    <!--== Start Call to action Wrapper ==-->
+    <div class="call-to-action-area">
+        <div class="call-to-action-content-area bg-img" data-bg="assets/img/bg/bg-1.jpg">
             <div class="container">
-                <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2021 Company Name 
-                            | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                        </p>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="call-to-action-txt">
+                            <h2>ALL KINDS OF PARTS THAT YOU <br> NEED CAN FIND HERE</h2>
+                                <a href="shop.html" class="btn btn-brand">Shop Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-    </footer>
-    <!-- End Footer -->
+        <div class="call-to-action-image-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="assets/img/bg/bg-car.png" alt="Car" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Call to action Wrapper ==-->
 
-    <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <!--== Start Promotion Code Banner Area ==-->
+    <div class="promotion-code-area-wrapper sm-top">
+        <div class="container container-wide">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="promotion-code-banner-item mb-sm-30">
+                        <img src="assets/img/banner/banner-5.jpg" alt="Banner" />
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="promotion-code-banner-item">
+                        <img src="assets/img/banner/banner-6.jpg" alt="Banner" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Promotion Code Banner Area ==-->
+
+    <!--== Start Products Area Wrapper ==-->
+    <div class="products-area-wrapper sm-top">
+        <div class="container container-wide">
+            <div class="row">
+                <div class="col-lg-5 m-auto text-center">
+                    <div class="section-title">
+                        <h2 class="h3">All Of Our Products</h2>
+                        <p>All best seller product are now available for you and your can buy
+                            this product from here any time any where so sop now</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-wrapper columns-5">
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-6.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-7.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Auto Clutch & Brake</a></h4>
+                                    <span class="price"><strong>Price:</strong> $165.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+
+                                <div class="product-item__sale">
+                                    <span class="sale-txt">25%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-8.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-9.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Leather Steering Wheel</a></h4>
+                                    <span class="price"><strong>Price:</strong> $615.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-7.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-14.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Hanging 4K Camera</a></h4>
+                                    <span class="price"><strong>Price:</strong> $65.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+
+                                <div class="product-item__sale">
+                                    <span class="sale-txt">35%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-10.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-5.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">17 inch Rims 8 Lug</a></h4>
+                                    <span class="price"><strong>Price:</strong> $165.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-11.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-4.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Locking Hub Diagram</a></h4>
+                                    <span class="price"><strong>Price:</strong> $165.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+
+                                <div class="product-item__sale">
+                                    <span class="sale-txt">21%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-13.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-12.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Hanging 4K Camera</a></h4>
+                                    <span class="price"><strong>Price:</strong> $65.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+
+                                <div class="product-item__sale">
+                                    <span class="sale-txt">35%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-14.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-8.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">17 inch Rims 8 Lug</a></h4>
+                                    <span class="price"><strong>Price:</strong> $165.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-15.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-4.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Locking Hub Diagram</a></h4>
+                                    <span class="price"><strong>Price:</strong> $165.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+
+                                <div class="product-item__sale">
+                                    <span class="sale-txt">21%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-12.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-2.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Auto Clutch & Brake</a></h4>
+                                    <span class="price"><strong>Price:</strong> $165.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+
+                                <div class="product-item__sale">
+                                    <span class="sale-txt">25%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+
+                        <!-- Start Product Item -->
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="product-item__thumb">
+                                    <a href="single-product.html">
+                                        <img class="thumb-primary" src="assets/img/product/product-9.png" alt="Product" />
+                                        <img class="thumb-secondary" src="assets/img/product/product-4.png" alt="Product" />
+                                    </a>
+                                </div>
+
+                                <div class="product-item__content">
+                                    <div class="ratting">
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                        <span><i class="ion-android-star-half"></i></span>
+                                    </div>
+                                    <h4 class="title"><a href="single-product.html">Leather Steering Wheel</a></h4>
+                                    <span class="price"><strong>Price:</strong> $615.00</span>
+                                </div>
+
+                                <div class="product-item__action">
+                                    <button class="btn-add-to-cart"><i class="ion-bag"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-loop-strong"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-ios-heart-outline"></i></button>
+                                    <button class="btn-add-to-cart"><i class="ion-eye"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Item -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Products Area Wrapper ==-->
+
+    <!--== Start Flash Deals Area ==-->
+    <div class="flash-deals-area bg-img" data-bg="assets/img/bg/deal-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-11 m-auto">
+                    <div class="row align-items-center">
+                        <div class="col-md-5 col-lg-6">
+                            <div class="flash-deals-thumb text-center text-md-left">
+                                <img src="assets/img/extra/wheels.png" alt="Deals" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-lg-6 text-center">
+                            <div class="flash-deals-content">
+                                <h2>FLASH DEALS</h2>
+                                <h3>HURRY UP AND GET 25% DISCOUNT</h3>
+                                <a href="cart.html" class="btn btn-brand">Add to cart</a>
+
+                                <div class="deals-countdown-area">
+                                    <div class="ht-countdown" data-date="9/20/2019"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Flash Deals Area ==-->
+
+    <!--== Start Newsletter Area ==-->
+    <div class="newsletter-area-wrapper">
+        <div class="container container-wide">
+            <div class="newsletter-area-inner bg-img" data-bg="assets/img/bg/newsletter-bg.jpg">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-5 m-auto">
+                        <div class="newsletter-content text-center">
+                            <h4>SPECIAL <span>OFFER</span> FOR SUBSCRIPTION</h4>
+                            <h2>GET INSTANT DISCOUNT FOR MEMBERSHIP</h2>
+                            <p>Subscribe our newsletter and all latest news of our <br>latest product, promotion and offers</p>
+
+                                <div class="newsletter-form-wrap">
+                                    <form action="#" method="post">
+                                        <div class="form-content">
+                                            <input type="email" placeholder="Enter your email here" />
+                                            <button class="btn-newsletter">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Newsletter Area ==-->
+
+    <!--== Start Brand Logo Area Wrapper ==-->
+    <div class="brand-logo-area sm-top sm-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="brand-logo-content">
+                        <div class="brand-logo-item">
+                            <a href="#"><img src="assets/img/brand-logo/brand-1.png" alt="Logo" /></a>
+                        </div>
+
+                        <div class="brand-logo-item">
+                            <a href="#"><img src="assets/img/brand-logo/brand-2.png" alt="Logo" /></a>
+                        </div>
+
+                        <div class="brand-logo-item">
+                            <a href="#"><img src="assets/img/brand-logo/brand-3.png" alt="Logo" /></a>
+                        </div>
+
+                        <div class="brand-logo-item">
+                            <a href="#"><img src="assets/img/brand-logo/brand-4.png" alt="Logo" /></a>
+                        </div>
+
+                        <div class="brand-logo-item">
+                            <a href="#"><img src="assets/img/brand-logo/brand-5.png" alt="Logo" /></a>
+                        </div>
+
+                        <div class="brand-logo-item">
+                            <a href="#"><img src="assets/img/brand-logo/brand-3.png" alt="Logo" /></a>
+                        </div>
+
+                        <div class="brand-logo-item">
+                            <a href="#"><img src="assets/img/brand-logo/brand-1.png" alt="Logo" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Brand Logo Area Wrapper ==-->
+
+    <!--== Start Footer Area Wrapper ==-->
+    <footer class="footer-area">
+        <div class="footer-widget-area">
+            <div class="container container-wide">
+                <div class="row mtn-40">
+                    <div class="col-lg-3">
+                        <div class="widget-item">
+                            <div class="about-widget">
+                                <a href="index.html"><img src="assets/img/logo-light.png" alt="Logo" /></a>
+                                <p>Lukas is the best parts shop for your car
+                                    accessories. What kind of parts do you
+                                    need you can get here soluta nobis</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Information</h4>
+                            <div class="widget-body">
+                                <ul class="widget-list">
+                                    <li><a href="#">Our company</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Our services</a></li>
+                                    <li><a href="#">Why We?</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Quicklink</h4>
+                            <div class="widget-body">
+                                <ul class="widget-list">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Cart</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Support</h4>
+                            <div class="widget-body">
+                                <ul class="widget-list">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Return Policy</a></li>
+                                    <li><a href="#">Online Support</a></li>
+                                    <li><a href="#">Money Back</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Store Information</h4>
+                            <div class="widget-body">
+                                <address>
+                                    2005 Stokes Isle Apartment. 896, Washington 10010, USA <br>
+                                https://example.com <br>
+                                (+68) 120034509
+                            </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="copyright-content">
+                            <p>Copyright © 2019 Lukas. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--== End Footer Area Wrapper ==-->
+
+    <!-- Scroll Top Button -->
+    <button class="btn-scroll-top"><i class="ion-chevron-up"></i></button>
+
+
+
+    <!--== Start Responsive Menu Wrapper ==-->
+    <aside class="off-canvas-wrapper off-canvas-menu">
+        <div class="off-canvas-overlay"></div>
+        <div class="off-canvas-inner">
+            <!-- Start Off Canvas Content -->
+            <div class="off-canvas-content">
+                <div class="off-canvas-header">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="close-btn">
+                        <button class="btn-close"><i class="ion-android-close"></i></button>
+                    </div>
+                </div>
+
+                <!-- Content Auto Generate Form Main Menu Here -->
+                <div class="res-mobile-menu mobile-menu">
+
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!--== End Responsive Menu Wrapper ==-->
+
+
+    <!--=======================Javascript============================-->
+    <!-- build:js assets/js/app.min.js -->
+    <!--=== Modernizr Min Js ===-->
+    <script src="assets/js/modernizr-3.6.0.min.js"></script>
+    <!--=== jQuery Min Js ===-->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!--=== jQuery Migration Min Js ===-->
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/templatemo.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <!-- End Script -->
+    <!--=== Popper Min Js ===-->
+    <script src="assets/js/popper.min.js"></script>
+    <!--=== Bootstrap Min Js ===-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--=== Slicknav Min Js ===-->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!--=== Magnific Popup Min Js ===-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--=== Slick Slider Min Js ===-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--=== Nice Select Min Js ===-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--=== Leaflet Min Js ===-->
+    <script src="assets/js/leaflet.min.js"></script>
+    <!--=== Countdown Js ===-->
+    <script src="assets/js/countdown.js"></script>
+
+    <!--=== Active Js ===-->
+    <script src="assets/js/active.js"></script>
+    <!-- endbuild -->
+
 </body>
 
 </html>
